@@ -21,7 +21,7 @@ jobs:
 
       - name: Download model from CivitAI
         run: |
-          MODEL_ID=481765 # Replace with your CivitAI model ID
+          MODEL_ID="481765" # Replace with your CivitAI model ID
           CIVITAI_TOKEN="${{ secrets.CIVITAI_TOKEN }}"
           DOWNLOAD_URL="https://civitai.com/api/download/models/$MODEL_ID?token=$CIVITAI_TOKEN"
 
